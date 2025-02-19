@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-principal: #f6f6f6;
+    --cor-secundaria: #000000;
+    --cor-destaque: #5948FF;
+
+    --font-family-main: "Inter", sans-serif;
+    --font-family-secondary: "Inter Tight", sans-serif;
+}
+
+body {
+    font-family: var(--font-family-main);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 20px;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--cor-destaque);
+}
+
+.texto-principal {
+    font-size: 85px;
+    font-weight: 800;
+    padding: 200px 80px;
+    font-family: var(--font-family-secondary);
+}
+
+.texto-principal span {
+    font-weight: 100;
+}
+
+.sobre-mim {
+    display: flex;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+}
+
+.sobre-mim .sobre-principal {
+    width: 45%;
+}
+
+.sobre-mim .sobre-texto {
+    text-align: right;
+    margin-left: 40%;
+}
+
+.linha {
+    letter-spacing: -4px;
+}
+
+.texto-cinza {
+    color: #545454;
+}
+
+.texto-roxo {
+    color: var(--cor-destaque);
+}
+
+.title-portfolio,
+.title-ferramentas {
+    padding: 80px;
+    text-align: center;
+    font-family: var(--font-family-main);
+    font-size: 50px;
+}
+
+hr {
+    height: 5px;
+    background-color: #000;
+    border: none; 
+    width: 100%; 
+}
+
+.portfolio {
+    display: flex;
+    gap: 15px;
+    font-size: 1em;
+    color: #545454;
+    font-family: var(--font-family-secondary);
+    font-weight: 100;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.lado-esquerdo {
+    text-align: right;
+}
+
+.ferramentas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.after-efects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.after-efects img {
+    width: 65px;
+}
+
+.ferramentas p {
+    width: 500px;
+    padding: 20px;
+}
+
+.info {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-info {
+    align-self: center;
+    padding: 40px;
+    font-size: 3em;
+    text-align: left;
+    font-weight: 100;
+}
+
+.title-info span {
+    font-weight: 800;
+}
+
+.itens-info {
+    display: flex;
+}
+
+.itens-info div {
+    color: #000;
+    background-color: var(--cor-principal);
+    box-shadow: var(--cor-destaque) 5px 4px;
+}
+
+.eficacia {
+    width: 400px;
+    height: 400px;
+}
+
+.eficacia-text {
+    display: revert;
+}
+
+.exp,
+.clientes {
+    width: 300px;
+    height: 200px;
+}
+
+.projetos {
+    width: 400px;
+}
+
+.texto-na-info {
+    width: 500px;
+}
