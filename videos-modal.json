@@ -1,0 +1,63 @@
+[
+    {
+      "id": "adapta",
+      "title": "Shorts",
+      "company": "Empresa",
+      "youtubeUrl": "https://www.youtube.com/embed/VrR6i8h_PcE?si=XH9mjTMsKJ3njalx",
+      "summary": "Sumário",
+      "info": [
+        { "label": "Tempo", "value": "1-2 Horas" },
+        { "label": "Software", "value": "Adobe Premiere" },
+        { "label": "Créditos", "value": "Lucas Silva" }
+      ]
+    },
+    {
+        "id": "solucoes",
+        "title": "Apresentação",
+        "company": "",
+        "youtubeUrl": "https://www.youtube.com/embed/QSJkIL5lIFQ?si=eA0v8t4Fm8PGyXVZ",
+        "summary": "Sumário",
+        "info": [
+          { "label": "Tempo", "value": "2-3 Horas" },
+          { "label": "Software", "value": "Adobe Premiere" },
+          { "label": "Créditos", "value": "Lucas Silva" }
+        ]
+      },
+      {
+        "id": "motion",
+        "title": "Motion",
+        "company": "",
+        "youtubeUrl": "https://www.youtube.com/embed/TA2MJPCFrRQ?si=lU4A91sFEd6OkEKK",
+        "summary": "Sumário",
+        "info": [
+          { "label": "Tempo", "value": "1-1.5 Horas" },
+          { "label": "Software", "value": "Adobe Premiere" },
+          { "label": "Créditos", "value": "Lucas Silva" }
+        ]
+      },
+      {
+        "id": "contrato",
+        "title": "Shorts",
+        "company": "Contrato",
+        "youtubeUrl": "https://www.youtube.com/embed/I8ayp4_VoBs?si=InPZ8ucwH0BGDHpl",
+        "summary": "Sumário",
+        "info": [
+          { "label": "Tempo", "value": "3-3.5 Horas" },
+          { "label": "Software", "value": "Adobe Premiere" },
+          { "label": "Créditos", "value": "Lucas Silva" }
+        ]
+      },
+      {
+        "id": "comercial",
+        "title": "Comercial",
+        "company": "Escova",
+        "youtubeUrl": "https://www.youtube.com/embed/c4jo-qGPMa4?si=0mWE_MzwQAMFVnsJ",
+        "summary": "Sumário",
+        "info": [
+          { "label": "Tempo", "value": "3-3.5 Horas" },
+          { "label": "Software", "value": "Adobe Premiere" },
+          { "label": "Créditos", "value": "Lucas Silva" }
+        ]
+      }
+  ]
+  
